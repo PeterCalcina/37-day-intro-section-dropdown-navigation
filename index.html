@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Frontend Club">
+    <meta name="description" content="Descripcion del proyecto">
+    <!-- Biblioteca de íconos Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Archivo reset Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Archivo de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>Intro Section With Dropdown Navigation</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="images/logo.svg" alt="Logo">
+        </div>
+
+        <div class="header__menu__hamburguer">
+            <img class="menu__open" src="images/icon-menu.svg" alt="Icon menu">
+            <img class="menu__close" src="images/icon-close-menu.svg" alt="Icon close">
+        </div>
+
+        <nav class="header__nav">
+            <ul class="header__nav__menu">
+                <li class="menu__item">Features
+                    <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+
+                    <ul class="menu__dropdown">
+                        <li class="menu__dropdown__item">
+                            Todo List
+                            <img src="images/icon-todo.svg" alt="Icon planning">
+                        </li>
+                        <li class="menu__dropdown__item">
+                            Calendar
+                            <img src="images/icon-calendar.svg" alt="Icon calendar">
+                        </li>
+                        <li class="menu__dropdown__item">
+                            Reminders
+                            <img src="images/icon-reminders.svg" alt="Icon remainders">
+                        </li>
+                        <li class="menu__dropdown__item">
+                            Planning
+                            <img src="images/icon-planning.svg" alt="Icon planning">
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu__item">Company
+                    <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+
+                    <ul class="menu__dropdown">
+                        <li class="menu__dropdown__item">History</li>
+                        <li class="menu__dropdown__item">Our Team</li>
+                        <li class="menu__dropdown__item">Blog</li>
+                    </ul>
+                </li>
+                <li class="menu__item">Carees</li>
+                <li class="menu__item">About</li>
+            </ul>
+
+            <div class="header__buttons">
+                <button class="header__buttons__login">Login</button>
+                <button class="header__buttons__register">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="page__description">
+            <h1 class="page__description__title">Make remote work</h1>
+            <p class="page__description__text">
+                Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar. 
+            </p>
+            <button class="page__description__button">Learn more</button>
+            <div class="page__description__images">
+                <img src="images/client-databiz.svg" alt="Image">
+                <img src="images/client-audiophile.svg" alt="Image">
+                <img src="images/client-meet.svg" alt="Image">
+                <img src="images/client-maker.svg" alt="Image">
+            </div>
+        </section>
+
+        <div class="image__background">
+            <img src="images/image-hero-desktop.png" alt="Background">
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
